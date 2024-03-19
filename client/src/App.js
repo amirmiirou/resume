@@ -132,7 +132,7 @@ xl:flex xl:flex-row xl:justify-between   xl:items-end xl:h-full
 
 
 {option===true ? 
-<div className='absolute right-0 top-0   w-full  h-40 bg-black rounded-lg '>
+<div className='absolute right-0 top-0   w-full  h-40 bg-black rounded-lg pr-5'>
 <div className='flex justify-end'>
 <FiDelete className='text-white' onClick={()=>{setOption(false)}}/>
 </div>
