@@ -132,7 +132,7 @@ xl:flex xl:flex-row xl:justify-between   xl:items-end xl:h-full
 
 
 {option===true ? 
-<div className='absolute right-0 top-0  bg-white w-full  h-40 '>
+<div className='absolute right-0 top-0   w-full  h-40 bg-purple-700 rounded-lg '>
 <div className='flex justify-end'>
 <FiDelete onClick={()=>{setOption(false)}}/>
 </div>
@@ -140,6 +140,8 @@ xl:flex xl:flex-row xl:justify-between   xl:items-end xl:h-full
 <HashLink onClick={()=>{setOption(false)}} className="text-black hover:bg-purplle hover:text-blue-400 "  to="#home" >Home</HashLink>
 <HashLink onClick={()=>{setOption(false)}} className="text-black hover:bg-purplle hover:text-blue-400  " to="#about">About</HashLink>
 <HashLink onClick={()=>{setOption(false)}} className="text-black hover:bg-purplle hover:text-blue-400 " to="#services">Services</HashLink>
+<HashLink onClick={()=>{setOption(false)}} className="text-black hover:bg-purplle hover:text-blue-400 " to="#projects">Projects</HashLink>
+
 <HashLink onClick={()=>{setOption(false)}} className="text-black hover:bg-purplle hover:text-blue-400 " to="#skills">Skills</HashLink>
 <HashLink onClick={()=>{setOption(false)}} className="text-black  hover:bg-purplle hover:text-blue-400 " to="#contact">Contact</HashLink>
 </div>
