@@ -134,7 +134,7 @@ xl:flex xl:flex-row xl:justify-between   xl:items-end xl:h-full
 {option===true ? 
 <div className='absolute right-0 top-0   w-full  h-40 bg-black rounded-lg '>
 <div className='flex justify-end'>
-<FiDelete onClick={()=>{setOption(false)}}/>
+<FiDelete className='text-white' onClick={()=>{setOption(false)}}/>
 </div>
 <div className='flex flex-col   items-center  '>
 <HashLink onClick={()=>{setOption(false)}} className="text-white hover:bg-purplle hover:text-blue-400 "  to="#home" >Home</HashLink>
