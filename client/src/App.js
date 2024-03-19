@@ -126,13 +126,13 @@ xl:flex xl:flex-row xl:justify-between   xl:items-end xl:h-full
 </div>
 
 <div>
-<AiOutlineMenu className=' text-white sm:hidden md:hidden lg:hidden xl:hidden relative ' onClick={()=>{
+<AiOutlineMenu className=' text-white sm:hidden md:hidden lg:hidden xl:hidden relative left-5' onClick={()=>{
   if(option===false){setOption(true)}else{setOption(false)}
   }} />
 
 
 {option===true ? 
-<div className='absolute right-0 top-20   w-full  h-40 bg-black rounded-lg pr-5'>
+<div className='absolute right-0 top-12   w-full  h-40 bg-black rounded-lg pr-5'>
 <div className='flex justify-end'>
 <FiDelete className='text-white' onClick={()=>{setOption(false)}}/>
 </div>
