@@ -50,7 +50,7 @@ const [message,setMessage]=useState()
 onClick={()=>{
 
 
-axios.post("https://portfolio-server-six-theta.vercel.app/send",{name : name,email:email,adress:adress,phone:phone,message:message})
+axios.post("https://resume-server-ten.vercel.app/send",{name : name,email:email,adress:adress,phone:phone,message:message})
 .then((data)=>{
 
 if(data.data!==null){

@@ -12,7 +12,7 @@ const cors=require("cors")
 //const mongoose=require("mongoose")
 
 
-app.use(cors({origin:"https://portfolio-client-iota.vercel.app"}))
+app.use(cors({origin:"https://resume-client-three.vercel.app"}))
 
 app.use(express.json())
 
