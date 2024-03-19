@@ -126,7 +126,7 @@ xl:flex xl:flex-row xl:justify-between   xl:items-end xl:h-full
 </div>
 
 <div>
-<AiOutlineMenu className=' text-white sm:hidden md:hidden lg:hidden xl:hidden relative ' onClick={()=>{
+<AiOutlineMenu className=' text-white sm:hidden md:hidden lg:hidden xl:hidden relative pr-5' onClick={()=>{
   if(option===false){setOption(true)}else{setOption(false)}
   }} />
 
